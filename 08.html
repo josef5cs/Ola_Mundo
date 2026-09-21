@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio Click - 08</title>
+        <link rel="stylesheet" href="08.css">
+    </head>
+    <body>
+        <h1 style="text-align: center">Exercicio Click - 08</h1>
+        <h2>Alterar tamanho de texto<br>
+        Ao clicar em um botão, aumente o tamanho da fonte de um parágrafo.<br>
+        Ao dar duplo clique, volte ao tamanho original.
+        </h2>
+        <a href="index.html" style="text-decoration: none">Voltar</a>
+        <hr>
+
+        <div class="container">
+            <button onclick="aumentar()" ondblclick="diminuir()">Aumenta tamanho</button>
+        </div>
+
+        <div class="container2">
+            <p id="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, laborum? Dolorem voluptas sed laborum eum et, odio, minus earum vel sequi facere error fuga voluptates dolorum aliquam quod neque consectetur.</p>
+        </div>
+
+
+        <script src="08.js"></script>
+    </body>
+</html>
