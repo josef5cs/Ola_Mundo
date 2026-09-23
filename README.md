@@ -1,6 +1,6 @@
 # Olá, Mundo
-Primeiro repositório versionado
+Primeiro **repositório** versionado
 
 Repositório criado durante uma aula ao vivo!
 
-Essa linha eu alterei diretamente no site!
+Essa linha eu alterei diretamente no *site*!
